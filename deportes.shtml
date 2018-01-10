@@ -21,11 +21,16 @@
       height: 100%;
       background-size: cover;
       margin-right: 8px;
+      height: 220px;
 
     }
 
+    .pad-10 {
+      padding: 10px;
+    }
+
     .video-tip-1 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/terraza-mobile.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/prueba.jpg);
     }
 
     .video-tip-2 {
@@ -33,7 +38,7 @@
     }
 
     .video-tip-3 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/piscina-mobile.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/prueba.jpg);
     }
 
     .video-tip-4 {
@@ -52,7 +57,7 @@
 
     .slick-dots li {
       display: inline-block;
-      padding: 10px;
+      padding: 5px;
     }
 
     .slick-dots>li>button {
@@ -66,7 +71,7 @@
       height: 80px;
       background: transparent;
       /* For browsers that do not support gradients */
-      background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
       /* Standard syntax (must be last) */
     }
 
@@ -80,20 +85,83 @@
 
     .div-recomendacion {
       background: rgb(0, 114, 206);
-      height: 20vh;
       width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .div-recomendacion:before {
+      content: '';
+      position: absolute;
+      border-width: 8px;
+      border-color: rgb(0, 114, 206) #fff #fff #fff;
+      bottom: -17px;
+      border-style: solid;
+      right: 0;
+      left: 0;
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+      margin-bottom: 21px;
+      -webkit-transition: all ease-in-out .3s;
+      transition: all ease-in-out .3s;
     }
 
     .title-video-tip,
     .title-recomendacion {
       color: #fff;
       font-family: misoRegular;
-      font-size: 1.3em;
+      font-size: 1.4em;
       padding-top: 12px;
+    }
+
+    .title-recomendacion {
+      padding: 10px;
     }
 
     .type-hands {
       font-family: hands;
+    }
+
+    .section-videos-tip,
+    .section-recomendados {
+      margin-bottom: 20px;
+    }
+
+    .number-recomendacion {
+      padding: 8px 12px;
+      background: rgb(0, 114, 206);
+      color: #fff;
+      /* display: flex; */
+      /* justify-content: center; */
+      border-radius: 41px;
+      font-weight: bold;
+      font-size: 1.2em;
+
+    }
+
+    .item-recomendacion {
+      background: #E4E4E4;
+      height: 100%;
+      margin-right: 8px;
+      padding: 20px 0;
+      height: 33vh!important;
+    }
+
+    p.text-blue-recomendacion {
+      font-family: miso;
+      font-size: 1.4em;
+      padding-bottom: 10px;
+      line-height: 20px;
+      font-weight: bold;
+      color: rgb(0, 114, 206);
+    }
+
+
+    .text-white-recomendacion {
+      color: #929292;
+      line-height: 20px;
+      text-align: left;
+      font-size: 1em;
     }
 
     /******************************************
@@ -825,100 +893,133 @@
   </div>
 </div>
 <!-- section videos-tip -->
-<div class="row no-margin">
-  <div class="row">
-    <div class="slider-drag">
-      <div>
-        <div class="video-tip video-tip-1">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+<div class="section-videos-tip">
+  <div class="row no-margin">
+    <div class="col-xs-12">
+      <div class="slider-drag">
+        <div>
+          <div class="video-tip video-tip-1">
+            <div id="grad1">
+              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-2">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="video-tip video-tip-2">
+            <div id="grad1">
+              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-3">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="video-tip video-tip-3">
+            <div id="grad1">
+              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-4">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="video-tip video-tip-4">
+            <div id="grad1">
+              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-5">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="video-tip video-tip-5">
+            <div id="grad1">
+              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 </div>
+
+
 <!-- fin section videos-tip -->
 
 <!-- section recomendados -->
-<div class="row no-margin">
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <div class="div-recomendacion">
-      <p class="title-recomendacion text-center type-hands"> Tambien te recomendamos</p>
+<div class="section-recomendados">
+  <div class="row no-margin">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="div-recomendacion">
+        <p class="title-recomendacion text-center type-hands"> Tambien te recomendamos</p>
+      </div>
     </div>
-  </div>
-  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-    <div class="slider-drag">
-      <div>
-        <div class="video-tip video-tip-1">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+      <div class="slider-drag">
+        <div>
+          <div class="item-recomendacion">
+            <div class="col-xs-2 pad-10">
+              <span class="type-hands number-recomendacion">1</span>
+            </div>
+            <div class="col-xs-10 ">
+              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-2">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="item-recomendacion">
+            <div class="col-xs-2 pad-10">
+              <span class="type-hands number-recomendacion">2</span>
+            </div>
+            <div class="col-xs-10 ">
+              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-3">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="item-recomendacion">
+            <div class="col-xs-2 pad-10">
+              <span class="type-hands number-recomendacion">3</span>
+            </div>
+            <div class="col-xs-10 ">
+              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-4">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="item-recomendacion">
+            <div class="col-xs-2 pad-10">
+              <span class="type-hands number-recomendacion">4</span>
+            </div>
+            <div class="col-xs-10 ">
+              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="video-tip video-tip-5">
-          <div id="grad1">
-            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+        <div>
+          <div class="item-recomendacion">
+            <div class="col-xs-2 pad-10">
+              <span class="type-hands number-recomendacion">5</span>
+            </div>
+            <div class="col-xs-10">
+              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <!--fin  section recomendados -->
 <script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/slick.js?v=14"></script>
 <script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js?v=14"></script>
-<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js?v=18"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js?v=22"></script>
 <script type="text/javascript">
   $(document).ready(function() {
 

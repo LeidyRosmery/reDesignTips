@@ -15,16 +15,16 @@ focusOnSelect: false
 
 $(_ => {
 var widthWindows = $(window).width();
-const widthSlide = (widthWindows / 100) * 80;
+const widthSlide = (widthWindows / 100) * 76.7;
 $(".slick-slide").css("width", widthSlide);
-$(".slick-slide").css("height", widthSlide-70);
+
 
 var x = 0;
 $(window).resize(function() {
   var widthWindows1 = $(window).width();
-  const widthSlide1 = (widthWindows1 / 100) * 80;
+  const widthSlide1 = (widthWindows1 / 100) * 76.7;
   $(".slick-slide").css("width", widthSlide1);
-    $(".slick-slide").css("height", widthSlide1-70);
+
 });
 
 });
