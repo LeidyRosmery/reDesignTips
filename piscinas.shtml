@@ -1,0 +1,661 @@
+<head>
+
+  <link rel="alternate" hreflang="x-default" href="#">
+  <meta http-equiv="Content-Language" content="es" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css">-->
+
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/interna-verano.css">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css">
+  <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/swiper.css">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/menu.css?v=w7aTUpFB6Z9nFee">
+  <style type="text/css">
+    /*generales*/
+
+    .no-margin {
+      margin: 0px;
+    }
+
+    .newMainSection {
+      margin-top: 0 !important;
+    }
+
+    .breadrumbWrap {
+      display: none;
+    }
+
+    /*fin generales*/
+
+    /*header*/
+
+    .interna-header-desktop {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/banner_internas_desktop/banner_piscinas_desktop.jpg);
+    }
+
+    .interna-header-mobil {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/banner_internas_mobile/banner_piscinas_mobile.jpg);
+    }
+
+    .interna-header-detalles {
+      height: 400px;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-header-img {
+      height: 285px;
+      position: relative;
+      left: 36%;
+      top: 29px;
+    }
+
+    /*fin header*/
+
+    /*bg grey*/
+
+    .interna-bg-grey {
+      background-color: rgb(235, 237, 238);
+    }
+
+    .interna-grey-texto {
+      font-style: italic;
+      color: grey;
+      font-size: 18px;
+    }
+
+    .interna-bg-grey-box {
+      text-align: center;
+      padding: 2% 1%;
+      line-height: 244%;
+    }
+
+    .interna-video-svg-check {
+      width: 7%;
+      display: inline-block;
+      margin-right: 9px;
+    }
+
+    .interna-grey-nuestras-opciones {
+      color: rgb(0, 114, 206);
+      font-family: misoregular;
+      font-weight: 600;
+      font-size: 28px;
+    }
+
+    .interna-flecha-abajo {
+      color: rgb(0, 114, 206);
+      font-size: 25px;
+    }
+
+    .interna-piscina-estructurales {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/piscinas/1.jpg);
+    }
+
+    .interna-piscina-inflables {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/piscinas/2.jpg);
+    }
+
+    .interna-flotadores {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/piscinas/3.jpg);
+    }
+
+    .interna-accesorios-de-piscinas {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/piscinas/4.jpg);
+    }
+
+    .interna-mantenimiento-de-piscina {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/piscinas/5.jpg);
+    }
+
+    .interna-bg-grey-img-detalles {
+      height: 360px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-bg-grey-aside-img-detalles {
+      height: 730px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-bg-grey-btn-azul {
+      background-color: rgb(0, 114, 206);
+      color: white;
+      top: 76%;
+      position: relative;
+      height: auto;
+      box-sizing: border-box;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .interna-bg-grey-btn-azul-texto {
+      display: inline-block;
+      font-family: misoregular;
+      font-size: 25px;
+      position: absolute;
+      left: 12%;
+    }
+
+    .interna-bg-grey-btn-azul-top {
+      top: 88.2%;
+    }
+
+    .interna-padding-bott {
+      padding-bottom: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+    }
+
+    .interna-padding-top {
+      padding-top: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+    }
+
+    .interna-btn-azul-piscina-estructural {
+      width: 62%;
+      left: 4%;
+    }
+
+    .interna-btn-azul-flotadores {
+      width: 44%;
+      left: 4%;
+    }
+
+    .interna-btn-azul-accesorios-piscina {
+      width: 44%;
+      left: 4%;
+    }
+
+    .interna-btn-azul-piscina-inflables {
+      width: 40%;
+      right: -57%;
+    }
+
+    .interna-btn-azul-piscina-mantenimiento {
+      width: 90%;
+      left: 4%;
+    }
+
+    /*fin bg grey*/
+
+    /*bg white*/
+
+    .interna-bg-white-box {
+      color: grey;
+      font-family: misoregular;
+      font-size: 28px;
+      text-align: center;
+      padding: 2% 1%;
+      line-height: 1.2;
+    }
+
+    .interna-span-tu-piscina {
+      font-family: hands;
+      color: rgb(0, 114, 206);
+    }
+
+    .azul {
+      color: rgb(0, 114, 206);
+    }
+
+    /*fin bg white*/
+
+    /*video*/
+
+    .interna-video {
+      background-color: rgb(0, 114, 206);
+      color: white;
+      padding: 2%;
+    }
+
+    .interna-video-svg {
+      width: 10%;
+      display: inline-block;
+    }
+
+    .interna-video-texto {
+      display: inline-block;
+      width: 89%;
+    }
+
+    .interna-video-box-txt {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3% 0;
+      font-size: 14px;
+    }
+
+    .interna-video-border-left {
+      border-left: 2px dotted white;
+      min-height: 346px;
+    }
+
+    .interna-video-titulo-txt {
+      padding: 3% 0;
+      margin-left: 10%
+    }
+
+    .interna-float-right {
+      float: right;
+    }
+
+    .interna-padding-5px {
+      padding: 5px !important;
+    }
+
+    .interna-padding-0px {
+      padding: 0px !important;
+    }
+
+    .interna-video-texto-style {
+      font-family: misoregular;
+      font-size: 21px;
+    }
+
+    /*end video*/
+
+    /*menu fixed*/
+
+    .no-padding {
+      padding: 0px;
+    }
+
+    .nav ul {
+      width: 100% !important;
+    }
+
+    #menu-navbar-collapse {
+      padding: 0px;
+    }
+
+    .menu-navbar-fixed {
+      left: 0px !important;
+    }
+
+    .menu-mobile {
+      position: absolute;
+      /*position: relative !important;*/
+      width: 100% !important;
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+    }
+
+    /*fin menu*/
+
+    /*queries*/
+
+    @media screen and (max-width: 992px) {
+      .interna-bg-grey-aside-img-detalles {
+        height: 360px;
+      }
+      .interna-header-detalles {
+        background-position: center top;
+      }
+      .interna-bg-grey {
+        background-color: white;
+      }
+      .interna-video-border-left {
+        border: none;
+      }
+      .interna-bg-grey-btn-azul-top {
+
+        width: 85%;
+        left: 8%;
+      }
+      .interna-padding-bott {
+        padding-bottom: 0px;
+      }
+      .interna-padding-top {
+        padding-top: 0px;
+      }
+      .interna-video-texto-style {
+        font-size: 27px;
+        font-weight: 500;
+      }
+      .interna-bg-grey-btn-azul-texto {
+        width: 47%;
+        font-size: 21px;
+      }
+      .interna-btn-azul-piscina-estructural {
+
+        width: 85%;
+        left: 8%;
+      }
+      .interna-btn-azul-piscina-inflables {
+
+        width: 85%;
+        left: 8%;
+      }
+      .interna-btn-azul-accesorios-piscina {
+
+        left: 8%;
+        width: 85%;
+      }
+      .interna-btn-azul-flotadores {
+
+        width: 42%;
+        left: 4%;
+      }
+      .interna-plus-pis-est {
+        top: -1rem;
+      }
+      .interna-chevron-pis-est {
+        top: 9px;
+      }
+      .interna-plus-pis-inf {
+        top: -5px;
+      }
+      .interna-chevron-pis-infl {
+        top: 11px;
+      }
+      .interna-plus-pis-acc {
+        top: -16px;
+      }
+      .interna-chevron-pis-acc {
+        top: 14px;
+      }
+      .interna-plus-pis-man {
+        top: -15px;
+      }
+      .interna-chevron-pis-man {
+        top: 15px;
+      }
+      .interna-plus-pis-flo {
+        top: -1px;
+      }
+      .interna-chevron-pis-flo {
+        top: 2px;
+      }
+      .interna-piscina-estructurales {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/piscinas/piscinas_estructurales.jpg);
+      }
+      .interna-piscina-inflables {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/piscinas/piscinas_inflables.jpg);
+      }
+      .interna-flotadores {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/piscinas/flotadores.jpg);
+      }
+      .interna-accesorios-de-piscinas {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/piscinas/accesorios_de_piscinas.jpg);
+      }
+      .interna-mantenimiento-de-piscina {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/piscinas/mantenimientos_de_piscinas.jpg);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .interna-bg-grey-box {
+        line-height: 205%;
+      }
+      .interna-grey-texto {
+        font-size: 18px;
+      }
+
+      .interna-font-size {
+        font-size: 10px;
+      }
+      .interna-video {
+        padding: 3%;
+      }
+      .interna-video-box-txt {
+        padding: 4% .5%;
+      }
+      .interna-video-titulo-txt {
+        text-align: center;
+        text-align: center;
+        margin: 5px;
+      }
+      .interna-bg-grey-btn-azul-texto {
+        width: 49%;
+      }
+      .interna-bg-grey-btn-azul {
+        padding: 25px 5px;
+      }
+
+      .interna-video-texto-style {
+        line-height: 1.2;
+      }
+      .interna-header-detalles {
+        height: 281px;
+      }
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 580px) {
+      .interna-header-img {
+        height: 200px;
+        top: 26px;
+      }
+      .interna-video-svg-check {
+        width: 9%;
+      }
+    }
+
+    @media screen and (max-width: 580px) {
+      /*.interna-header-img {
+            height: 256px;
+            left: 24%;
+            top: 16px;
+        }*/
+      .interna-video-svg-check {
+        width: 9%;
+      }
+      .interna-header-img {
+        height: 194px;
+        transform: translate(-21%, 24%);
+      }
+      .interna-bg-grey-btn-azul-top {
+        top: 76%;
+      }
+    }
+
+    /*fin queries*/
+  </style>
+</head>
+<div class="row no-margin">
+  <div class="col-xs-12 no-padding menu-spec" id="menu">
+
+  </div>
+</div>
+<div class="row hidden-sm hidden-xs no-margin">
+  <div class="interna-header-desktop interna-header-detalles">
+    <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/logos_categorias/piscinas.svg?v=2323" class="interna-header-img">
+  </div>
+</div>
+<div class="row hidden-md hidden-lg no-margin">
+  <div class="interna-header-mobil interna-header-detalles">
+    <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/logos_categorias/piscinas.svg?v=3232" class="interna-header-img">
+  </div>
+</div>
+<div class="row interna-bg-grey no-margin">
+  <div class="col-xs-12">
+    <div class="interna-bg-grey-box">
+      <p class="interna-grey-texto">¿Demasiado calor? Arma tu piscina y disfruta con los tuyos lo mejor del verano.</p>
+      <p class="interna-grey-nuestras-opciones">CONOCE NUESTRAS OPCIONES</p>
+      <span class="glyphicon glyphicon-menu-down interna-flecha-abajo"></span>
+    </div>
+  </div>
+
+  <!-- clases desktop -->
+  <div class="col-xs-12">
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10654/Piscinas-Estructurales" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_PiscinasEstructurales')">
+        <div class="interna-piscina-estructurales interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-piscina-estructural">
+            <span class="glyphicon glyphicon-plus interna-font-size"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Piscinas estructurales</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10658/Piscinas-Inflables" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_PiscinasInflables')">
+        <div class="interna-piscina-inflables interna-bg-grey-img-detalles">
+          <div class=" interna-bg-grey-btn-azul interna-btn-azul-piscina-inflables">
+            <span class="glyphicon glyphicon-plus interna-font-size"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Piscinas inflables</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12" style="padding-bottom: 12px;">
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <div class="col-xs-12 hidden-xs hidden-sm interna-padding-bott">
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat779023/Inflables-y-Juegos-para-Piscina" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_Flotadores')">
+          <div class="interna-flotadores interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-btn-azul-flotadores">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Flotadores</p>
+              <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="interna-padding-top col-xs-12 hidden-xs hidden-sm">
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat779023/Inflables-y-Juegos-para-Piscina" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_AccesoriosDePiscina')">
+          <div class="interna-accesorios-de-piscinas interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-btn-azul-accesorios-piscina">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Accesorios de piscina</p>
+              <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-md-5 interna-padding-5px hidden-xs hidden-sm">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10664/Mantenimiento-de-Piscinas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_MantenimientoDePiscina')">
+        <div class="interna-mantenimiento-de-piscina interna-bg-grey-aside-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-bg-grey-btn-azul-top interna-btn-azul-piscina-mantenimiento">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Mantenimiento de piscinas</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- fin clases desktop -->
+  <!-- clases movil -->
+
+  <div class="col-xs-12">
+<!-- prueba -->
+    <div class="col-xs-6 col-md-7 interna-padding-5px  visible-xs visible-sm">
+
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat779023/Inflables-y-Juegos-para-Piscina" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_Flotadores')">
+          <div class="interna-flotadores interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-bg-grey-btn-azul-top interna-btn-azul-piscina-mantenimiento ">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Flotadores</p>
+              <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+            </div>
+          </div>
+        </a>
+
+    </div>
+    <div class="col-xs-6 col-md-5 interna-padding-5px  visible-xs visible-sm">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10664/Mantenimiento-de-Piscinas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_MantenimientoDePiscina')">
+        <div class="interna-mantenimiento-de-piscina interna-bg-grey-aside-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-bg-grey-btn-azul-top interna-btn-azul-piscina-mantenimiento">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Mantenimiento de piscinas</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+<!-- fin prueba -->
+
+
+    <div class="col-xs-12 interna-padding-5px visible-xs visible-sm">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat3129019/Accesorios-de-piscinas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_Flotadores')">
+        <div class="interna-accesorios-de-piscinas interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-flotadores">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Accesorios de piscina </p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row interna-bg-white no-margin">
+  <div class="col-xs-12">
+    <div class="interna-bg-white-box">
+      <p>Mantén en buen estado <span class="interna-span-tu-piscina">tu piscina</span></p>
+      <p>con estos consejos</p>
+      <span class="glyphicon glyphicon-menu-down azul"></span>
+    </div>
+  </div>
+</div>
+<div class="row interna-video no-margin">
+  <div class="col-xs-12 col-md-6">
+    <div class="interna-video-box-txt hidden-sm hidden-xs">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/iconos/piscinas.svg" class="interna-video-svg">
+      <p class="interna-video-texto interna-video-texto-style"> ¿Cómo guardar tu</br>piscina estructural?</p>
+    </div>
+    <div>
+      <a target="_blank" class="popup-youtube" href="https://www.youtube.com/watch?v=kcFXVCBRaTg">
+            <img width="100%" src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/desktop/piscina.jpg" class="">
+        </a>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6 interna-video-border-left">
+    <div style="padding-bottom: 3%;padding-top: 3%;">
+      <p class="interna-video-titulo-txt interna-video-texto-style">Tips para dar un mantenimiento eficiente a tu piscina</p>
+    </div>
+    <div class="interna-video-box-txt">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/chek.svg" class="interna-video-svg-check">
+      <p class="interna-video-texto">Analiza el pH del agua de tu piscina cada 5 días. Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.</p>
+    </div>
+    <div class="interna-video-box-txt">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/chek.svg" class="interna-video-svg-check">
+      <p class="interna-video-texto">Previene que el pH llegue a niveles demasiados altos, esto ayuda evitar irritaciones en la piel y corrosión de los materiales de la piscina.</p>
+    </div>
+    <div class="interna-video-box-txt">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/chek.svg" class="interna-video-svg-check">
+      <p class="interna-video-texto">Evita un pH demasiado bajo, así prevenimos irritaciones en la piel, turbidez del agua y presencia de algas que son perjudiciales para la salud.</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // PLUGIN MAGNIFICPOPUP
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
+    //END MAGNIFICPOPUP
+
+  });
+</script>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/swiper.js?v=fBcj2vMbTby5iea"></script>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/menu.js?w7aTUpFB6Z9nFee"></script>
+
+<!--<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js"></script>-->

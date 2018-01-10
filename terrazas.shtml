@@ -1,0 +1,727 @@
+<head>
+
+  <link rel="alternate" hreflang="x-default" href="#">
+  <meta http-equiv="Content-Language" content="es" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css">-->
+
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/interna-verano.css">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css">
+   <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/swiper.css">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/menu.css?v=w7aTUpFB6Z9nFee">
+  <style type="text/css">
+    /*generales*/
+
+    .no-margin {
+      margin: 0px;
+    }
+
+    .no-padding {
+      padding: 0px;
+    }
+
+    .newMainSection {
+      margin-top: 0 !important;
+    }
+
+    .breadrumbWrap {
+      display: none;
+    }
+
+    /*fin generales*/
+
+    /*header*/
+
+    .interna-header-desktop {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/banner_internas_desktop/banner_terrazas_desktop.jpg);
+    }
+
+    .interna-header-mobil {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/banner_internas_mobile/banner_terrazas_mobile.jpg);
+    }
+
+    .interna-header-detalles {
+      height: 400px;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-header-img {
+      height: 285px;
+      position: relative;
+      left: 36%;
+      top: 29px;
+    }
+
+    /*fin header*/
+
+    /*bg grey*/
+
+    .interna-bg-grey {
+      background-color: rgb(235, 237, 238);
+    }
+
+    .interna-grey-texto {
+      font-style: italic;
+      color: grey;
+      font-size: 18px;
+    }
+
+    .interna-bg-grey-box {
+      text-align: center;
+      padding: 2% 1%;
+      line-height: 244%;
+    }
+
+    .glyphicon {
+      top: 0!important;
+    }
+
+    .interna-grey-nuestras-opciones {
+      color: rgb(0, 114, 206);
+      font-family: misoregular;
+      font-weight: 600;
+      font-size: 28px;
+    }
+
+    .interna-flecha-abajo {
+      color: rgb(0, 114, 206);
+      font-size: 25px;
+    }
+
+    .interna-piscina-estructurales {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/terrazas/1.jpg);
+    }
+
+    .interna-piscina-inflables {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/terrazas/2.jpg);
+    }
+
+    .interna-flotadores {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/terrazas/3.jpg);
+    }
+
+    .interna-accesorios-de-piscinas {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/terrazas/4.jpg);
+    }
+
+    .interna-mantenimiento-de-piscina {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/terrazas/5.jpg);
+    }
+
+    .interna-bg-grey-img-detalles {
+      height: 360px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-bg-grey-aside-img-detalles {
+      height: 730px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-bg-grey-btn-azul {
+      background-color: rgb(0, 114, 206);
+      color: white;
+      top: 82%;
+      font-family: misoregular;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: auto;
+      box-sizing: border-box;
+      padding: 15px;
+    }
+
+    /*cambio*/
+
+    }
+
+    .interna-bg-grey-btn-azul-texto {
+      display: inline-block;
+      font-family: misoregular;
+      font-size: 25px;
+    }
+    p.interna-bg-grey-btn-azul-texto {
+    font-size: 25px;
+    }
+
+    .interna-bg-grey-btn-azul-top {
+      top: 91%;
+      /*cambio*/
+    }
+
+    .interna-padding-bott {
+      padding-bottom: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+    }
+
+    .interna-padding-top {
+      padding-top: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+    }
+
+    .interna-btn-azul-piscina-estructural {
+      width: 62%;
+      left: 4%;
+    }
+
+    .interna-btn-azul-flotadores {
+      width: 44%;
+      left: 4%;
+    }
+
+    .interna-btn-azul-accesorios-piscina {
+      width: 44%;
+      left: 4%;
+    }
+
+    .interna-btn-azul-piscina-inflables {
+      width: 40%;
+      right: -57%;
+    }
+
+    .interna-btn-azul-piscina-mantenimiento {
+      width: 90%;
+      left: 4%;
+    }
+
+    /*fin bg grey*/
+
+    /*bg white*/
+
+    .interna-bg-white-box {
+      color: grey;
+      font-family: misoregular;
+      font-size: 28px;
+      /*cambio*/
+      text-align: center;
+      padding: 2% 1%;
+      line-height: 1.2;
+      /*cambio*/
+    }
+
+    .interna-span-tu-piscina {
+      font-family: hands;
+      color: rgb(0, 114, 206);
+    }
+
+    .azul {
+      color: rgb(0, 114, 206);
+    }
+
+    /*fin bg white*/
+
+    /*video*/
+
+    .interna-video {
+      background-color: rgb(0, 114, 206);
+      color: white;
+      padding: 2%;
+    }
+
+    .interna-video-svg {
+      width: 10%;
+      display: inline-block;
+    }
+
+    .interna-video-svg-check {
+      width: 7%;
+      display: inline-block;
+      margin-right: 9px;
+    }
+
+    .interna-video-texto {
+      display: inline-block;
+      width: 89%;
+    }
+
+    .interna-video-box-txt {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3% 0;
+    }
+
+    .interna-video-border-left {
+      border-left: 2px dotted white;
+      min-height: 346px;
+    }
+
+    .interna-video-titulo-txt {
+      padding: 3% 0;
+      margin-left: 10%
+    }
+
+    .interna-float-right {
+      float: right;
+    }
+
+    .interna-padding-5px {
+      padding: 5px !important;
+    }
+
+    .interna-padding-0px {
+      padding: 0px !important;
+    }
+
+    .interna-video-texto-style {
+      font-family: misoregular;
+      font-size: 21px;
+      line-height: 1;
+    }
+
+    /*end video*/
+
+    /*menu fixed*/
+
+    ​ .no-padding {
+      padding: 0px;
+    }
+
+    .nav ul {
+      width: 100% !important;
+    }
+
+    #menu-navbar-collapse {
+      padding: 0px;
+    }
+
+    .menu-navbar-fixed {
+      left: 0px !important;
+    }
+
+    .menu-mobile {
+      position: absolute;
+      /*position: relative !important;*/
+      width: 100% !important;
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+    }
+
+    /*fin menu*/
+
+    .parrafo-tips {
+      padding: 25px;
+      font-size: 14px;
+    }
+
+
+
+    /*queries*/
+
+    @media screen and (max-width: 992px) {
+      .interna-bg-grey-aside-img-detalles {
+        height: 360px;
+      }
+      .line-3 {
+        top: 71%;
+      }
+      .interna-header-detalles {
+        background-position: center top;
+      }
+      .interna-bg-grey {
+        background-color: white;
+      }
+      .interna-video-border-left {
+        border: none;
+      }
+      .interna-bg-grey-btn-azul-top {
+        top: 74%;
+        width: 85%;
+        left: 8%;
+      }
+      .interna-padding-bott {
+        padding-bottom: 0px;
+      }
+      .interna-padding-top {
+        padding-top: 0px;
+      }
+      .interna-video-texto-style {
+        font-size: 27px;
+        font-weight: 500;
+      }
+      .interna-bg-grey-btn-azul-texto {
+        width: 10%;
+      }
+      .interna-btn-azul-piscina-estructural {
+        top: 78%;
+        width: 85%;
+        left: 8%;
+      }
+      .interna-btn-azul-piscina-inflables {
+        top: 78%;
+        width: 85%;
+        left: 8%;
+      }
+      .interna-btn-azul-accesorios-piscina {
+        top: 74%;
+        left: 8%;
+        width: 85%;
+      }
+      .interna-btn-azul-flotadores {
+        top: 82%;
+        width: 42%;
+        left: 4%;
+      }
+      .interna-plus-pis-est {
+        top: -1rem;
+      }
+      .interna-chevron-pis-est {
+        top: 9px;
+      }
+      .interna-plus-pis-inf {
+        top: -5px;
+      }
+      .interna-chevron-pis-infl {
+        top: 11px;
+      }
+      .interna-plus-pis-acc {
+        top: -16px;
+      }
+      .interna-chevron-pis-acc {
+        top: 14px;
+      }
+      .interna-plus-pis-man {
+        /*cambio 2*/
+        top: -2px;
+        font-size: 12px;
+      }
+      .interna-chevron-pis-man {
+        top: 15px;
+        font-size: 18px;
+        /*cambio 2*/
+      }
+      .interna-plus-pis-flo {
+        top: -1px;
+      }
+      .interna-chevron-pis-flo {
+        top: 2px;
+      }
+
+      /*imagenes de los mundos mobile*/
+      .interna-piscina-estructurales {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/terrazas/juegos_de_terrazas.jpg);
+      }
+      .interna-piscina-inflables {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/terrazas/pergolas_quitasoles.jpg);
+      }
+      .interna-flotadores {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/terrazas/muebles_de_bar.jpg);
+      }
+      .interna-accesorios-de-piscinas {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/terrazas/menaje.jpg);
+      }
+      .interna-mantenimiento-de-piscina {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/terrazas/complementos_de_terrazas.jpg);
+      }
+
+
+
+    }
+
+    @media screen and (max-width: 768px) {
+      .interna-bg-grey-box {
+        line-height: 205%;
+      }
+      .interna-bg-grey-btn-azul.line-3 {
+        top: 71%;
+      }
+
+      p.interna-bg-grey-btn-azul-texto {
+      font-size: 21px;
+      }
+      .interna-font-size {
+        font-size: 10px;
+      }
+      .interna-video {
+        padding: 3%;
+      }
+      .interna-video-box-txt {
+        padding: 4% .5%;
+      }
+      .interna-video-titulo-txt {
+        /* margin-left: 14%; */
+        text-align: center;
+        margin: 0 5px;
+      }
+
+
+      .interna-bg-grey-btn-azul-texto {
+        width: 57%;
+        font-size: 21px;
+        line-height: 0.9;
+      }
+      .interna-bg-grey-btn-azul {
+        padding: 10px;
+        min-height: 57px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        top: 76%;
+      }
+
+      .icon-plus {
+        top: -10px;
+      }
+
+      .icon-plus-menaje {
+        top: -2px;
+      }
+
+      .interna-header-img {
+        height: 194px;
+        transform: translate(-7%, 0);
+
+      }
+      .arrow-spec {
+        top: 12px;
+      }
+      .arrow-men {
+        top: 2px;
+      }
+
+      .interna-header-detalles {
+        height: 281px;
+      }
+
+
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 580px) {
+      .interna-header-img {
+        height: 200px;
+        top: 26px;
+      }
+      .interna-video-svg-check {
+        width: 9%;
+      }
+    }
+
+    @media screen and (max-width: 580px) {
+      /*.interna-header-img {
+            height: 194px;
+            left: 30%;
+            top: 3px;
+        }*/
+      .interna-video-svg-check {
+        width: 9%;
+      }
+      .interna-header-img {
+        height: 194px;
+        transform: translate(-21%, 24%);
+      }
+
+    }
+
+    @media screen and (max-width: 480px) {
+      
+      .interna-btn-azul-flotadores{
+        width: 68%;
+      }
+
+    }
+
+    /*fin queries*/
+  </style>
+</head>
+<div class="row no-margin">
+  <div class="col-xs-12 no-padding menu-spec" id="menu"></div>
+</div>
+<div class="row no-margin hidden-sm hidden-xs">
+  <div class="interna-header-desktop interna-header-detalles">
+    <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/logos_categorias/terrazas.svg" class="interna-header-img">
+  </div>
+</div>
+<div class="row no-margin hidden-md hidden-lg">
+  <div class="interna-header-mobil interna-header-detalles">
+    <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/logos_categorias/terrazas.svg" class="interna-header-img">
+  </div>
+</div>
+<div class="row no-margin interna-bg-grey">
+  <div class="col-xs-12">
+    <div class="interna-bg-grey-box">
+      <p class="interna-grey-texto">Convierte tu terraza en el escenario perfecto para esta temporada.</p>
+      <p class="interna-grey-nuestras-opciones">CONOCE NUESTRAS OPCIONES</p>
+      <span class="glyphicon glyphicon-menu-down interna-flecha-abajo"></span>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1250001/Especial-terrazas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_JuegosDeTerrazas')">
+        <div class="interna-piscina-estructurales interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-piscina-estructural">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Juegos de terrazas</p>
+            <span class="glyphicon glyphicon-menu-right interna-float-right "></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10516/Pergolas,-toldos-y-sombrillas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_PergolasYQuitasoles')">
+        <div class="interna-piscina-inflables interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-piscina-inflables line-3">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Pérgolas y quitasoles</p>
+            <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12 hidden-xs hidden-sm" style="padding-bottom: 12px;">
+    <div class="col-xs-6 col-md-7 interna-padding-5px ">
+      <div class="col-xs-12 interna-padding-bott">
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat649013/Muebles-de-Bar" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_MueblesDeBar')">
+          <div class="interna-flotadores interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-btn-azul-flotadores">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Muebles de bar</p>
+              <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="interna-padding-top col-xs-12 ">
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2829002/Menaje-Terrazas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_Menaje')">
+          <div class="interna-accesorios-de-piscinas interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-btn-azul-accesorios-piscina">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Menaje</p>
+              <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/search/?Ntt=complementos+terraza" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_ComplementosDeTerraza')">
+        <div class="interna-mantenimiento-de-piscina interna-bg-grey-aside-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-bg-grey-btn-azul-top interna-btn-azul-piscina-mantenimiento">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Complementos de terraza</p>
+            <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- solo para mobile -->
+  <div class="col-xs-12 hidden-md hidden-lg">
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat649013/Muebles-de-Bar" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_MueblesDeBar')">
+        <div class="interna-flotadores interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-piscina-estructural">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Muebles de bar</p>
+            <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2829002/Menaje-Terrazas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_Menaje')">
+        <div class="interna-accesorios-de-piscinas interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-piscina-inflables">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Menaje</p>
+            <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="col-xs-12 " style="padding-bottom: 12px;">
+    <div class="col-xs-12 interna-padding-5px visible-xs visible-sm">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/search/?Ntt=complementos+terraza" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_verano-prueba_2018', 'Click', 'Boton_ComplementosDeTerraza')">
+        <div class="interna-mantenimiento-de-piscina interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-flotadores line-3">
+            <span class="interna-font-size glyphicon glyphicon-plus "></span>
+            <p class="interna-bg-grey-btn-azul-texto">Complementos de terraza</p>
+            <span class="glyphicon glyphicon-menu-right interna-float-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- fin de solo para mobile -->
+
+
+</div>
+<div class="row no-margin interna-bg-white">
+  <div class="col-xs-12">
+    <div class="interna-bg-white-box">
+      <p>Crea un ambiente <span class="interna-span-tu-piscina">único y acogedor</span></p>
+      <p>siguiendo estos consejos</p>
+      <span class="glyphicon glyphicon-menu-down azul"></span>
+    </div>
+  </div>
+</div>
+<div class="row no-margin interna-video">
+  <div class="col-xs-12 col-md-6">
+    <div class="interna-video-box-txt hidden-sm hidden-xs">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/iconos/terrazas.svg" class="interna-video-svg">
+      <p class="interna-video-texto interna-video-texto-style">Tips para tener una</br> terraza de ensueño</p>
+    </div>
+    <div>
+      <a target="_blank" class="popup-youtube" href="https://www.youtube.com/watch?v=UV49r2clqtE">
+            <img width="100%" src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/desktop/terraza.jpg" class="">
+        </a>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6 interna-video-border-left parrafo-tips">
+    <div style="padding-bottom: 3%;padding-top: 3%;">
+      <p class="interna-video-titulo-txt interna-video-texto-style">Tips para tener una</br> terraza de ensueño</p>
+
+    </div>
+    <div class="interna-video-box-txt">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/chek.svg" class="interna-video-svg-check">
+      <p class="interna-video-texto">¡Aprovecha tus paredes! Las paredes son el lienzo de tu hogar. Utiliza piezas decorativas, repisas y plantas para llenar de vida tu terraza.</p>
+    </div>
+    <div class="interna-video-box-txt">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/chek.svg" class="interna-video-svg-check">
+      <p class="interna-video-texto">¡Ilumina tu terraza! Crea una atmósfera inolvidable colocando lámparas o guirnaldas de luces colgantes, estas le darán un toque romántico a tu terraza. Complementa la iluminación creando caminos con pequeños faroles repartidos en el suelo.</p>
+    </div>
+    <div class="interna-video-box-txt">
+      <img src="/static/categorias/contenidoEstatico/landings/verano-prueba/img/chek.svg" class="interna-video-svg-check">
+      <p class="interna-video-texto">¡Dale un toque rústico! Destaca los materiales naturales como el ratán o la madera y combínalos con un piso de madera, esto le dará un clima cálido y acogedor a tu terraza.</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // PLUGIN MAGNIFICPOPUP
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
+    //END MAGNIFICPOPUP
+  });
+</script>
+ <script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/swiper.js?v=fBcj2vMbTby5iea"></script>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/menu.js?w7aTUpFB6Z9nFee"></script>
+<!--<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js"></script>-->

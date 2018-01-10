@@ -1,0 +1,941 @@
+<head>
+
+  <link rel="alternate" hreflang="x-default" href="#">
+  <meta http-equiv="Content-Language" content="es" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css">-->
+  <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/slick.css?v=14">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/interna-verano.css?v=14">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css?v=14">
+  <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/swiper.css?v=14">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/menu.css?v=w7aTUpFB6Z9nFee23">
+  <style type="text/css">
+    /******************************************
+    /******************************************
+    /***************css carrousel**************
+    /******************************************
+    /******************************************/
+
+    .video-tip {
+      height: 100%;
+      background-size: cover;
+      margin-right: 8px;
+
+    }
+
+    .video-tip-1 {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/terraza-mobile.jpg);
+    }
+
+    .video-tip-2 {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/playa-mobile.jpg);
+    }
+
+    .video-tip-3 {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/piscina-mobile.jpg);
+    }
+
+    .video-tip-4 {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/deportes-mobile.jpg);
+    }
+
+    .video-tip-5 {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/parrilla-mobile.jpg);
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slick-dots li {
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .slick-dots>li>button {
+      border: none;
+      border-radius: 31px;
+      padding: 5px;
+      background: #ADADAD;
+    }
+
+    #grad1 {
+      height: 80px;
+      background: transparent;
+      /* For browsers that do not support gradients */
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+      /* Standard syntax (must be last) */
+    }
+
+    .slick-dots>.slick-active>button {
+      border: none;
+      border-radius: 31px;
+      padding: 4px;
+      background: #fff;
+      border: rgb(0, 114, 206) solid 2px;
+    }
+
+    .div-recomendacion {
+      background: rgb(0, 114, 206);
+      height: 20vh;
+      width: 100%;
+    }
+
+    .title-video-tip,
+    .title-recomendacion {
+      color: #fff;
+      font-family: misoRegular;
+      font-size: 1.3em;
+      padding-top: 12px;
+    }
+
+    .type-hands {
+      font-family: hands;
+    }
+
+    /******************************************
+    /******************************************
+    /**********fin  css carrousel**************
+    /******************************************
+    /******************************************
+    /*generales*/
+
+    .no-margin {
+      margin: 0px;
+    }
+
+    .newMainSection {
+      margin-top: 0 !important;
+    }
+
+    #main.newMainSection>.container {
+      padding-right: 0px;
+      padding-left: 0px;
+      overflow: hidden;
+    }
+
+    .newMainSection>.container {
+      padding: 0 !important;
+    }
+
+    .breadrumbWrap {
+      display: none;
+    }
+
+    /*fin generales*/
+
+    /*header*/
+
+    .interna-header-desktop {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/banner_internas_desktop/banner_deportes_desktop.jpg);
+    }
+
+    .interna-header-mobil {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/banner_internas_mobile/banner_deportes_mobile.jpg);
+    }
+
+    .interna-header-detalles {
+      height: 400px;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-header-img {
+      height: 285px;
+      position: relative;
+      left: 36%;
+      top: 29px;
+    }
+
+    /*fin header*/
+
+    /*bg grey*/
+
+    .interna-bg-grey {
+      background-color: rgb(235, 237, 238);
+    }
+
+    .interna-grey-texto {
+      font-style: italic;
+      color: grey;
+      font-size: 18px;
+    }
+
+    .interna-bg-grey-box {
+      text-align: center;
+      padding: 2% 1%;
+      line-height: 244%;
+    }
+
+    .interna-grey-nuestras-opciones {
+      color: rgb(0, 114, 206);
+      font-family: misoregular;
+      font-weight: 600;
+      font-size: 28px;
+    }
+
+    .interna-flecha-abajo {
+      color: rgb(0, 114, 206);
+      font-size: 25px;
+    }
+
+    .interna-deportes-bicicletas {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/1.jpg);
+    }
+
+    .interna-deportes-botes-y-paddles {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/3.jpg);
+    }
+
+    .interna-deportes-natacion-y-buceo {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/4.jpg);
+    }
+
+    .interna-deportes-accesorios-fitness {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/5.jpg);
+    }
+
+    .interna-deportes-trotadoras {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/9.jpg);
+    }
+
+    .interna-deportes-eliptica {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/6.jpg);
+    }
+
+    .interna-deportes-bici-spinning {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/2.jpg);
+    }
+
+    .interna-deportes-maquina-ejercicio {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/8.jpg);
+    }
+
+    .interna-deportes-accesorios-bicicleta {
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/desktop/deportes/7.jpg);
+    }
+
+    .interna-bg-grey-img-detalles {
+      height: 360px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-bg-grey-aside-img-detalles {
+      height: 730px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .interna-bg-grey-btn-azul {
+      background-color: rgb(0, 114, 206);
+      color: white;
+      top: 86%;
+      position: relative;
+      height: auto;
+      box-sizing: border-box;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .interna-bg-grey-btn-azul-texto {
+      display: inline-block;
+      font-family: misoregular;
+      font-size: 25px;
+      position: absolute;
+      left: 12%;
+    }
+
+    .interna-padding-bott {
+      padding-bottom: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+    }
+
+    .interna-padding-top {
+      padding-top: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+    }
+
+    .interna-btn-azul-deporte-bicicleta {
+      width: 90%;
+      left: 5%;
+      top: 81%;
+    }
+
+    .interna-btn-azul-deporte-botes-paddle {
+      width: 64%;
+      top: 81%;
+      left: 33%;
+    }
+
+    .interna-btn-azul-deporte-natacion-buceo {
+      width: 64.5%;
+      left: 3%;
+      top: 81%;
+    }
+
+    .interna-btn-azul-deporte-accesorio-fitness {
+      width: 64.5%;
+      left: 3%;
+      top: 81%;
+    }
+
+    .interna-btn-azul-deporte-trotadoras {
+      width: 90%;
+      left: 5.5%;
+      top: 90.5%;
+    }
+
+    .interna-btn-azul-deporte-eliptica {
+      width: 64.5%;
+      left: 3%;
+      top: 81%;
+    }
+
+    .interna-btn-azul-deporte-bicicleta-spinning {
+      top: 81%;
+      width: 90%;
+      left: 5.5%;
+    }
+
+    .interna-btn-azul-deporte-maquina-ejercicio {
+      width: 90%;
+      left: 5%;
+      top: 81%;
+    }
+
+    .interna-btn-azul-deporte-accesorios-bicicletas {
+      width: 64%;
+      left: 33%;
+      top: 81%;
+    }
+
+    /*fin bg grey*/
+
+    /*bg white*/
+
+    .interna-bg-white-box {
+      color: grey;
+      font-family: misoregular;
+      font-size: 28px;
+      text-align: center;
+      padding: 2% 1%;
+      line-height: 1.2;
+    }
+
+    .interna-span-tu-piscina {
+      font-family: hands;
+      color: rgb(0, 114, 206);
+    }
+
+    .azul {
+      color: rgb(0, 114, 206);
+    }
+
+    /*fin bg white*/
+
+    /*video*/
+
+    .interna-video {
+      background-color: rgb(0, 114, 206);
+      color: white;
+      padding: 2%;
+    }
+
+    .interna-video-svg {
+      width: 10%;
+      display: inline-block;
+    }
+
+    .interna-video-texto {
+      display: inline-block;
+      width: 89%;
+    }
+
+    .interna-video-box-txt {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3% 0;
+      font-size: 14px;
+    }
+
+    .interna-video-svg-check {
+      width: 7%;
+      display: inline-block;
+      margin-right: 9px;
+    }
+
+    .interna-video-border-left {
+      border-left: 2px dotted white;
+      min-height: 346px;
+    }
+
+    .interna-video-titulo-txt {
+      padding: 3% 0;
+      margin-left: 10%
+    }
+
+    .interna-float-right {
+      float: right;
+    }
+
+    .interna-padding-5px {
+      padding: 5px !important;
+    }
+
+    .interna-padding-0px {
+      padding: 0px !important;
+    }
+
+    .interna-video-texto-style {
+      font-family: misoregular;
+      font-size: 21px;
+    }
+
+    /*end video*/
+
+    /*menu fixed*/
+
+    .no-padding {
+      padding: 0px;
+    }
+
+    .nav ul {
+      width: 100% !important;
+    }
+
+    #menu-navbar-collapse {
+      padding: 0px;
+    }
+
+    .menu-navbar-fixed {
+      left: 0px !important;
+    }
+
+    .menu-mobile {
+      position: absolute;
+      /*position: relative !important;*/
+      width: 100% !important;
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+    }
+
+    /*fin menu*/
+
+    /*queries*/
+
+    @media screen and (max-width: 992px) {
+      .interna-bg-grey-aside-img-detalles {
+        height: 360px;
+      }
+      .interna-header-detalles {
+        background-position: center top;
+      }
+      .interna-bg-grey {
+        background-color: white;
+      }
+      .interna-video-border-left {
+        border: none;
+      }
+      .interna-bg-grey-btn-azul-top {
+        top: 72%;
+        width: 88.5%;
+        left: 6%;
+        padding: 8% 2%;
+      }
+      .interna-padding-bott {
+        padding-bottom: 0px;
+      }
+      .interna-padding-top {
+        padding-top: 0px;
+      }
+      .interna-video-texto-style {
+        font-size: 27px;
+        font-weight: 500;
+      }
+      .interna-bg-grey-btn-azul-texto {
+        width: 47%;
+        font-size: 21px;
+      }
+      .interna-btn-azul-deporte-bicicleta {
+        top: 76%;
+        width: 87%;
+        left: 8%;
+      }
+      .interna-btn-azul-deporte-botes-paddle {
+        top: 76%;
+        width: 88.5%;
+        left: 6%;
+      }
+      .interna-btn-azul-deporte-accesorio-fitness {
+        top: 76%;
+        width: 87%;
+        left: 8%;
+      }
+      .interna-btn-azul-deporte-natacion-buceo {
+        top: 76%;
+        width: 42.5%;
+        left: 4%;
+      }
+
+      .interna-btn-azul-deporte-eliptica {
+        top: 76%;
+        width: 87%;
+        left: 8%;
+      }
+      .interna-btn-azul-deporte-maquina-ejercicio {
+        top: 76%;
+        width: 87%;
+        left: 8%;
+      }
+      .interna-btn-azul-deporte-bicicleta-spinning {
+        top: 76%;
+        width: 88.5%;
+        left: 6%;
+      }
+      .interna-btn-azul-deporte-accesorios-bicicletas {
+        top: 76%;
+        width: 88.5%;
+        left: 6%;
+      }
+      .interna-btn-azul-deporte-trotadoras {
+        top: 76%;
+      }
+      .interna-plus-deporte-bicicleta {
+        top: 0rem;
+      }
+      .interna-chevron-deporte-bicicleta {
+        top: 4px;
+      }
+      .interna-plus-botes-paddle {
+        top: -8px;
+      }
+      .interna-chevron-botes-paddle {
+        top: 10px;
+      }
+      .interna-plus-accesorio-fitness {
+        top: -6px;
+      }
+      .interna-chevron-accesorio-fitness {
+        top: 14px;
+      }
+      .interna-plus-trotadoras {
+        top: -3px;
+      }
+      .interna-chevron-trotadoras {
+        top: 4px;
+      }
+      .interna-plus-natacion-buceo {
+        top: -11px;
+      }
+      .interna-chevron-natacion-buceo {
+        top: 13px;
+      }
+      .interna-plus-bicicleta-spinning {
+        top: -17px;
+      }
+      .interna-chevron-bicicleta-spinning {
+        top: 17px;
+      }
+      .interna-plus-maquina-ejercicio {
+        top: -15px;
+      }
+      .interna-chevron-maquina-ejercicio {
+        top: 15px;
+      }
+      .interna-plus-accesorios-bicicletas {
+        top: -15px;
+      }
+      .interna-chevron-accesorios-bicicletas {
+        top: 16px;
+      }
+      .interna-plus-natacion-buceo {
+        top: -17px;
+      }
+
+      .interna-deportes-bicicletas {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/1.jpg);
+      }
+      .interna-deportes-botes-y-paddles {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/2.jpg);
+      }
+      .interna-deportes-natacion-y-buceo {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/3.jpg);
+      }
+      .interna-deportes-accesorios-fitness {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/8.jpg);
+      }
+      .interna-deportes-trotadoras {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/5.jpg);
+      }
+      .interna-deportes-eliptica {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/6.jpg);
+      }
+      .interna-deportes-bici-spinning {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/7.jpg);
+      }
+      .interna-deportes-maquina-ejercicio {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/4.jpg);
+      }
+      .interna-deportes-accesorios-bicicleta {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/internas/mobile/deportes/9.jpg);
+      }
+
+    }
+
+    @media screen and (max-width: 768px) {
+      .interna-bg-grey-box {
+        line-height: 205%;
+      }
+      .interna-grey-texto {
+        font-size: 18px;
+      }
+      .interna-font-size {
+        font-size: 10px;
+      }
+      .interna-video {
+        padding: 3%;
+      }
+      .interna-video-box-txt {
+        padding: 4% .5%;
+      }
+      .interna-video-titulo-txt {
+        /* margin-left: 14%; */
+        text-align: center;
+        margin: 5px;
+      }
+      .interna-plus-botes-paddle {
+        top: -17px;
+      }
+      .interna-chevron-botes-paddle {
+        top: 17px;
+      }
+      .interna-bg-grey-btn-azul-texto {
+        width: 58%;
+      }
+      .interna-bg-grey-btn-azul {
+        padding: 25px 5px;
+      }
+      .interna-video-texto-style {
+        line-height: 1.2;
+      }
+      .interna-header-detalles {
+        height: 281px;
+      }
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 580px) {
+      .interna-header-img {
+        height: 200px;
+        top: 26px;
+      }
+      .interna-video-svg-check {
+        width: 9%;
+      }
+    }
+
+    @media screen and (max-width: 580px) {
+      /*.interna-header-img {
+            height: 256px;
+            left: 24%;
+            top: 16px;
+        }*/
+      .interna-video-svg-check {
+        width: 9%;
+      }
+      .interna-header-img {
+        height: 194px;
+        transform: translate(-21%, 24%);
+      }
+
+    }
+
+    /*fin queries*/
+  </style>
+</head>
+<div class="row no-margin">
+  <div class="col-xs-12 no-padding menu-spec" id="menu">
+
+  </div>
+</div>
+<div class="row hidden-sm hidden-xs no-margin">
+  <div class="interna-header-desktop interna-header-detalles">
+    <img src="/static/categorias/contenidoEstatico/landings/Verano/img/logos_categorias/deportes.svg?v=2323" class="interna-header-img">
+  </div>
+</div>
+<div class="row hidden-md hidden-lg no-margin">
+  <div class="interna-header-mobil interna-header-detalles">
+    <img src="/static/categorias/contenidoEstatico/landings/Verano/img/logos_categorias/deportes.svg?v=3232" class="interna-header-img">
+  </div>
+</div>
+<div class="row interna-bg-grey no-margin">
+  <div class="col-xs-12">
+    <div class="interna-bg-grey-box">
+      <p class="interna-grey-texto">¡Vive un verano extremo! Encuentra todo lo que necesitas para disfrutar al máximo esta temporada.</p>
+      <p class="interna-grey-nuestras-opciones">CONOCE NUESTRAS OPCIONES</p>
+      <span class="glyphicon glyphicon-menu-down interna-flecha-abajo"></span>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat1269021/Bicicletas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_Bicicletas')">
+        <div class="interna-deportes-bicicletas interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-bicicleta">
+            <span class="glyphicon glyphicon-plus interna-font-size "></span>
+            <p class="interna-bg-grey-btn-azul-texto">Bicicletas</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat779021/Botes-Kayacs-y-tablas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_BotesYPaddles')">
+        <div class="interna-deportes-botes-y-paddles interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-botes-paddle">
+            <span class="glyphicon glyphicon-plus interna-font-size"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Botes y paddles</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <div class="col-xs-12 hidden-xs hidden-sm interna-padding-bott">
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat779025/Natacion-y-Buceo" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_NatacionYBuceo')">
+          <div class="interna-deportes-natacion-y-buceo interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-natacion-buceo">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Natación y buceo</p>
+              <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="interna-padding-top col-xs-12 ">
+        <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat1269024/Accesorios-fitness" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_AccesoriosFitness')">
+          <div class="interna-deportes-accesorios-fitness interna-bg-grey-img-detalles">
+            <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-accesorio-fitness">
+              <span class="interna-font-size glyphicon glyphicon-plus"></span>
+              <p class="interna-bg-grey-btn-azul-texto">Accesorios fitness</p>
+              <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2989004/Trotadoras" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_Trotadoras')">
+        <div class="interna-deportes-trotadoras interna-bg-grey-aside-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-trotadoras">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Trotadoras</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2979009/Bicicletas-Elipticas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_Elipticas')">
+        <div class="interna-deportes-eliptica interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-eliptica">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Elípticas</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2979008/Bicicletas-de-Spinning" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_BicicletasDeSpinning')">
+        <div class="interna-deportes-bici-spinning interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul  interna-btn-azul-deporte-bicicleta-spinning">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Bicicletas de spinning</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12" style="padding-bottom: 12px;">
+    <div class="col-xs-6 col-md-5 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat1269023/Maquinas-para-ejercicios" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_MaquinasDeEjercicio')">
+        <div class="interna-deportes-maquina-ejercicio interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-maquina-ejercicio">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Máquinas de ejercicio</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-7 interna-padding-5px">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat40020/Accesorios-para-Bicicletas" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_AccesoriosDeBicicletas')">
+        <div class="interna-deportes-accesorios-bicicleta interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul  interna-btn-azul-deporte-accesorios-bicicletas">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Accesorios de bicicletas</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="col-xs-12">
+    <div class="col-xs-12 interna-padding-5px visible-xs visible-sm">
+      <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat779025/Natacion-y-Buceo" target="_self" title="Click" onclick="ga('send', 'event', '2017_12_Landing_Home_Verano_2018', 'Click', 'Boton_NatacionYBuceo')">
+        <div class="interna-deportes-natacion-y-buceo interna-bg-grey-img-detalles">
+          <div class="interna-bg-grey-btn-azul interna-btn-azul-deporte-natacion-buceo">
+            <span class="interna-font-size glyphicon glyphicon-plus"></span>
+            <p class="interna-bg-grey-btn-azul-texto">Natación y buceo</p>
+            <span class="interna-font-size glyphicon glyphicon-menu-right"></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row interna-bg-white no-margin">
+  <div class="col-xs-12">
+    <div class="interna-bg-white-box">
+      <p>Prepárate para la <span class="interna-span-tu-piscina"> aventura </span></p>
+      <p>con estos consejos</p>
+      <span class="glyphicon glyphicon-menu-down azul"></span>
+    </div>
+  </div>
+</div>
+<!-- section videos-tip -->
+<div class="row no-margin">
+  <div class="row">
+    <div class="slider-drag">
+      <div>
+        <div class="video-tip video-tip-1">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-2">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-3">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-4">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-5">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin section videos-tip -->
+
+<!-- section recomendados -->
+<div class="row no-margin">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="div-recomendacion">
+      <p class="title-recomendacion text-center type-hands"> Tambien te recomendamos</p>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <div class="slider-drag">
+      <div>
+        <div class="video-tip video-tip-1">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-2">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-3">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-4">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="video-tip video-tip-5">
+          <div id="grad1">
+            <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin  section recomendados -->
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/slick.js?v=14"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js?v=14"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js?v=18"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $(".slick-dots > li > button").empty();
+    // PLUGIN MAGNIFICPOPUP
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
+    //END MAGNIFICPOPUP
+  });
+</script>
+
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/swiper.js?v=fBcj2vMbTby5iea"></script>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/menu.js?w7aTUpFB6Z9nFee"></script>
+<!--<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js"></script>-->

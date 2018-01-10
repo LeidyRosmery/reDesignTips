@@ -1,0 +1,881 @@
+<style type="text/css">
+#main.newMainSection > .container {
+width: 100%;
+position: relative;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+#main.newMainSection > .container > section.col-md-12 {
+padding-left: 0;
+padding-right: 0;
+}
+.newMainSection {
+margin-top: 0 !important;
+}
+.breadrumbWrap{
+display: none;
+}
+@media screen and (max-width: 1305px) and (min-width: 992px) {
+.productosHome .cajaProducto .cajaDetalle .sku{
+font-size: 10px !important;
+}
+.productosHome .cajaProducto .cajaPrecio .precio{
+line-height: 104% !important;
+}
+}
+@media screen and (max-width: 992px) {
+.nuievo_pro_de{
+padding-top: 3% !important;
+}
+.wrap-verano .img-responsive, .thumbnail img {
+max-width: 300px !important;
+margin: auto !important;
+}
+.intro-logo-wrapper {
+height: auto !important;
+}
+.resize-img {
+background-size: cover !important;
+}
+}
+@media screen and (max-width: 765px) {
+.heigHeader3 {
+height: 69px !important;
+}
+}
+</style>
+<script src="http://www.sodimac.com.pe/static/script/vendor/jquery.min.js?vid=343435"></script>
+<link rel="stylesheet" type="text/css" href="http://www.sodimac.com.pe/static/home/dist/css/home-full-promo.css">
+<script type="text/javascript" src="http://www.sodimac.com.pe/static/home/dist/js/home-full-promo.v3.8.js?985984684564"></script>
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/swiper.css">
+<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/menu.css?v=a79XgjPaN1jXC10">
+<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/home.css?v=BQ7xdcAR0QDx5KLK69">
+<div class="wrap-verano">
+    <div class="header-verano resize-img">
+        <div class="header-menu-summit">
+            <!--MENU-->
+            <div class="col-xs-12 no-padding" id="menu">
+            </div>
+            <!--MENU-->
+        </div>
+        <div class="row  center-block">
+            <div class="intro-logo-wrapper col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
+                <img class="content-verano-logo img-responsive" src="http://www.sodimac.com.pe/static/categorias/contenidoEstatico/landings/Verano/img/portada-letter.svg">
+                <div class="scroll-top hidden-xs hidden-sm">
+                    <a class="link-target" href="#category-piscinas">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--piscinas-->
+    <div class="space-verano-banner"></div>
+    <div id="category-piscinas" class="categories">
+        <div class="category-verano-piscina  color-white resize-img">
+            <div class="row center-block">
+                <div class="category-box col-md-6 col-sm-6  col-xs-6 pull-left">
+                    <span class="font-hand">Piscinas</span>
+                    <span class="font-miso nowrap">y FLOTADORES</span>
+                    <div class="box-blue">
+                        <h4 class="font-miso"> &#43; ¡Refréscate en casa este verano!</h4>
+                    </div>
+                    <div class="btn-view-cat btn-piscinas" onclick="location.href='http://www.sodimac.com.pe/sodimac-pe/content/a1500009/verano-piscinas/?cid=ctglnd9693';"><h4 class="font-miso text-left"> VER CATEGORÍA</h4><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+                <div class="category-destacados col-md-6 col-sm-6 col-xs-6 pull-right">
+                    <div class="box-category-verano hidden-xs hidden-sm pull-right">
+                        <div class="col-md-12 text-center">
+                            <div class="title-great-category" style="background: #0072ce;display:  flex;justify-content:  flex-start;width: 95%;align-items:center; margin: 2% 0 2% -4.5%; padding-left: 2%;">
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <h5><i>Destacados de la categoría</i></h5>
+                            </div>
+                        </div>
+                        <div class="row center-block" style="padding-bottom: 5%;">
+                            <div class="col-md-6" style="background: transparent; padding-left: 0; padding-right: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/1004883/Piscina-estructural-rectangular-2.59x1.70m/?cid=bnnlnd9702" target="_parent"  title="Piscina Estructural rectángular">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1004883_8?$producto495$&iv=2s1S50&wid=489&hei=489" class="img-responsive"/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Piscina estructural</div>
+                                                <div class="sku">rectángular</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 169.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: transparent; padding-right: 0; padding-left: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/2534967/Flotador-Pop-Corn/?cid=bnnlnd9703" target="_parent"  title="Flotador Pop Corn
+                                        Polygroup">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/2534967_1?$producto495$&iv=ZwySP1&wid=284&hei=344" class="img-responsive" alt="Flotador Pop Corn
+                                                Polygroup"/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Flotador Pop Corn</div>
+                                                <div class="sku">Polygroup</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 29.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="great-category-verano box-category-margin visible-xs visible-sm">
+            <div class="col-xs-12 text-center">
+                <div class="title-great-category letter-blue">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <h3><i>Destacados de la categoría</i></h3>
+                </div>
+            </div>
+            <div class="row center-block" style="padding-bottom: 5%;">
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/1004883/Piscina-estructural-rectangular-2.59x1.70m/?cid=bnnlnd9702" title="Piscina Estructural rectángular">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img
+                                    src="http://sodimac.scene7.com/is/image/SodimacPeru/1004883_8?$producto495$&iv=2s1S50&wid=489&hei=489" class="img-responsive"/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Piscina estructural</div>
+                                    <div class="sku">rectángular</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 169.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/2534967/Flotador-Pop-Corn/?cid=bnnlnd9703" target="_parent" title="Flotador Pop Corn Polygroup">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2534967_1?$producto495$&iv=ZwySP1&wid=284&hei=344" class="img-responsive" alt=""/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Flotador Pop Corn</div>
+                                    <div class="sku">Polygroup</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 29.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--piscinas end-->
+    <!--terrazas-->
+    <div class="space-verano-small"></div>
+    <div class="categories">
+        <div class="category-verano-terrazas  color-white resize-img">
+            <div class="row center-block">
+                <div class="category-box box-right col-md-6 col-xs-6 visible-xs visible-sm pull-right box-end">
+                    <span class="font-hand" style="line-height: 1;">Terrazas</span>
+                    <div class="box-blue" style="max-width: 165px">
+                        <h4 class="font-miso"> &#43; ¡Convierte tu casa en el punto de encuentro!</h4>
+                    </div>
+                    <div class="btn-view-cat" onclick="location.href='http://www.sodimac.com.pe/sodimac-pe/content/a1500008/verano-terrazas/?cid=ctglnd9694';"><h4 class="font-miso text-left"> VER CATEGORÍA</h4><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+                <div class="category-destacados col-md-6 hidden-xs hidden-sm pull-left">
+                    <div class="box-category-verano hidden-xs hidden-sm pull-left">
+                        <div class="col-md-12 text-center">
+                            <div class="title-great-category" style="background: #0072ce;display:  flex;justify-content:  flex-start;width: 95%;align-items:center; margin: 2% 0 2% -4.5%; padding-left: 2%;">
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <h5><i>Destacados de la categoría</i></h5>
+                            </div>
+                        </div>
+                        <div class="row center-block" style="padding-bottom: 5%;">
+                            <div class="col-md-6" style="background: transparent; padding-left: 0; padding-right: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/2537524/Juego-seccional-de-ratan-5-personas/?cid=bnnlnd9704" target="_parent"  title="Juego seccional de ratán 5 personas">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2537524_1?$producto495$&iv=OyhSh1&wid=489&hei=489" class="img-responsive"/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Juego seccional de ratán</div>
+                                                <div class="sku">5 personas</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 1,199.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: transparent; padding-right: 0; padding-left: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/1096346/(Antes-S-399)-Pergola-poliester-Tabaco-3x3m/?cid=bnnlnd9705" target="_parent" title="Pérgola poliéster Tabaco 3x3m">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1096346_1?$producto495$&iv=XKcSl0&wid=489&hei=489" class="img-responsive" alt='Pérgola poliéster Tabaco 3x3m'/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Pérgola poliéster Tabaco</div>
+                                                <div class="sku">3x3m</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 249.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="great-category-verano box-category-margin visible-xs visible-sm">
+            <div class="col-xs-12 text-center">
+                <div class="title-great-category letter-blue">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <h3><i>Destacados de la categoría</i></h3>
+                </div>
+            </div>
+            <div class="row center-block" style="padding-bottom: 5%;">
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/2537524/Juego-seccional-de-ratan-5-personas/?cid=bnnlnd9704" target="_parent"  title="Juego seccional de ratán 5 personas">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2537524_1?$producto495$&iv=OyhSh1&wid=489&hei=489" class="img-responsive"/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Juego seccional de ratán</div>
+                                    <div class="sku">5 personas</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 1,199.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/1096346/(Antes-S-399)-Pergola-poliester-Tabaco-3x3m/?cid=bnnlnd9705" target="_parent" title="Pérgola poliéster Tabaco 3x3m">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1096346_1?$producto495$&iv=XKcSl0&wid=489&hei=489" class="img-responsive" alt='Pérgola poliéster Tabaco 3x3m'/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Pérgola poliéster Tabaco</div>
+                                    <div class="sku">3x3m</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 249.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--terrazas end-->
+    <!--parrillas-->
+    <div class="space-verano-small"></div>
+    <div class="categories">
+        <div class="category-verano-parrillas  color-white resize-img">
+            <div class="row center-block">
+                <div class="category-box col-md-6 col-sm-6  col-xs-6 pull-left">
+                    <span class="font-hand"  style="line-height: 1;">Parrillas</span>
+                    <div class="box-blue">
+                        <h4 class="font-miso"> &#43; ¡El mejor plan al aire libre!</h4>
+                    </div>
+                    <div class="btn-view-cat" onclick="location.href='http://www.sodimac.com.pe/sodimac-pe/content/a1500010/verano-parrillas/?cid=ctglnd9695';"><h4 class="font-miso text-left"> VER CATEGORÍA</h4><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+                <div class="category-destacados col-md-6 col-sm-6 col-xs-6 pull-right">
+                    <div class="box-category-verano hidden-xs hidden-sm pull-right">
+                        <div class="col-md-12 text-center">
+                            <div class="title-great-category" style="background: #0072ce;display:  flex;justify-content:  flex-start;width: 95%;align-items:center; margin: 2% 0 2% -4.5%; padding-left: 2%;">
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <h5><i>Destacados de la categoría</i></h5>
+                            </div>
+                        </div>
+                        <div class="row center-block" style="padding-bottom: 5%;">
+                            <div class="col-md-6" style="background: transparent; padding-left: 0; padding-right: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/200402X/Caja-China-mediana-Premium-71-x-40-cm/?cid=bnnlnd9707" target="_parent"  title="Caja China mediana Premium 71 x 40 cm">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/200402X_1?$producto495$&iv=Z0GR92&wid=489&hei=489" class="img-responsive" alt='Caja China mediana Premium 71 x 40 cm'/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Caja China mediana</div>
+                                                <div class="sku">Premium 71 x 40 cm</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 469.90 c/u
+                                                </div>
+                                            </div>
+                                            <div class="btnVtn">VER MÁS</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: transparent; padding-right: 0; padding-left: 5px;">
+                                <div class="productosHome" style="background:white;padding-bottom:10%;">
+                                    <a href="/sodimac-pe/product/1699911/Parrilla-a-carbon-rectangular?cid=bnnlnd9763" target="_parent"  title="Parrilla a carbon rectangular">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/1699911_8?$producto495$&iv=N08Sl2&wid=300&hei=300" class="img-responsive" alt="Parrilla-a-carbon-rectangular"/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Parrilla a carbón</div>
+                                                <div class="sku">rectangular Mr. Beef</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 669.90
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="great-category-verano box-category-margin visible-xs visible-sm">
+            <div class="col-xs-12 text-center">
+                <div class="title-great-category letter-blue">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <h3><i>Destacados de la categoría</i></h3>
+                </div>
+            </div>
+            <div class="row center-block" style="padding-bottom: 5%;">
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/200402X/Caja-China-mediana-Premium-71-x-40-cm/?cid=bnnlnd9707" target="_parent"  title="Caja China mediana Premium 71 x 40 cm">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/200402X_1?$producto495$&iv=Z0GR92&wid=489&hei=489" class="img-responsive" alt='Caja China mediana Premium 71 x 40 cm'/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Caja China mediana</div>
+                                    <div class="sku">Premium 71 x 40 cm</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 469.90 c/u
+                                    </div>
+                                </div>
+                                <div class="btnVtn">VER MÁS</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="/sodimac-pe/product/1699911/Parrilla-a-carbon-rectangular?cid=bnnlnd9763" target="_parent"  title="Parrilla a carbón rectangular">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/1699911_8?$producto495$&iv=N08Sl2&wid=300&hei=300" class="img-responsive" alt="Parrilla-a-carbon-rectangular"/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Parrilla a carbón</div>
+                                    <div class="sku">rectangular Mr. Beef</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 669.90
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--parrillas end-->
+    <!--camping-->
+    <div class="space-verano-small"></div>
+    <div class="categories">
+        <div class="category-verano-camping  color-white resize-img">
+            <div class="row center-block">
+                <div class="category-box col-md-6 col-sm-6  col-xs-6 pull-left">
+                    <span class="font-hand">Playa</span>
+                    <span class="font-miso nowrap">y CAMPING</span>
+                    <div class="box-blue" style="max-width: 165px">
+                        <h4 class="font-miso"> &#43; ¡Conéctate con la naturaleza!</h4>
+                    </div>
+                    <div class="btn-view-cat"  onclick="location.href='http://www.sodimac.com.pe/sodimac-pe/content/a1500013/verano-playa-camping/?cid=ctglnd9697';"><h4 class="font-miso text-left"> VER CATEGORÍA</h4><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+                <div class="category-destacados col-md-6 col-sm-6 col-xs-6 pull-right">
+                    <div class="box-category-verano hidden-xs hidden-sm pull-right">
+                        <div class="col-md-12 text-center">
+                            <div class="title-great-category" style="background: #0072ce;display:  flex;justify-content:  flex-start;width: 77%;align-items:center; margin: 2% 0 2% -4.5%; padding-left: 2%;">
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <h5><i>Destacados de la categoría</i></h5>
+                            </div>
+                        </div>
+                        <div class="row center-block" style="padding-bottom: 5%;">
+                            <div class="col-md-6" style="background: transparent; padding-left: 0; padding-right: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/1998625C1/Combo-Parrilla-a-Carbon-Redonda-con-tapa-+-Carpa-Domepack-para-4-personas-+-Colchon-inflable-2-plazas/1998625C1" target="_parent"  title="Combo Carpa Igloo Dome para 4 personas + Colchón inflable 2 plazas">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1998625C1?$producto495$&iv=2s1S50&wid=489&hei=489" class="img-responsive" alt='Combo Carpa Igloo Dome para 4 personas + Colchón inflable 2 plazas'/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Parrilla a Carbón + Carpa</div>
+                                                <div class="sku">Domepack + Colchón inflable</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 179.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: transparent; padding-right: 0; padding-left: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/2111144/Toldo-plegable-azul-con-proteccion-UPF-50-3x3m/?cid=bnnlnd9710" target="_parent" title="Toldo plegable azul con protección UPF 50 3x3m">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/2111144_1?$producto495$&iv=W8GRF3&wid=489&hei=489" class="img-responsive" alt="Toldo plegable azul con protección UPF 50 3x3m"/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Toldo plegable azul</div>
+                                                <div class="sku">con protección UPF</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 199.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="great-category-verano box-category-margin visible-xs visible-sm">
+            <div class="col-xs-12 text-center">
+                <div class="title-great-category letter-blue">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <h3><i>Destacados de la categoría</i></h3>
+                </div>
+            </div>
+            <div class="row center-block" style="padding-bottom: 5%;">
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/1998625C1/Combo-Parrilla-a-Carbon-Redonda-con-tapa-+-Carpa-Domepack-para-4-personas-+-Colchon-inflable-2-plazas/1998625C1" target="_parent"  title="Combo Carpa Igloo Dome para 4 personas + Colchón inflable 2 plazas">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1998625C1?$producto495$&iv=2s1S50&wid=489&hei=489" class="img-responsive" alt='Combo Carpa Igloo Dome para 4 personas + Colchón inflable 2 plazas'/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Parrilla + Carpa</div>
+                                    <div class="sku">Domepack + Colchón inflable</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 179.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/2111144/Toldo-plegable-azul-con-proteccion-UPF-50-3x3m/?cid=bnnlnd9710" target="_parent" title="Toldo plegable azul con protección UPF 50 3x3m">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/2111144_1?$producto495$&iv=W8GRF3&wid=489&hei=489" class="img-responsive" alt="Toldo plegable azul con protección UPF 50 3x3m"/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Toldo plegable azul</div>
+                                    <div class="sku">con protección UPF</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 199.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--camping end-->
+    <!--deportes de verano-->
+    <div class="space-verano-small"></div>
+    <div class="categories">
+        <div class="category-verano-deportes  color-white resize-img">
+            <div class="row center-block">
+                <div class="category-box  col-md-3 col-md-offset-3 col-sm-6  col-xs-6 pull-right">
+                    <span class="font-hand" style="line-height: 1;">Deportes</span>
+                    <span class="font-miso nowrap">de VERANO</span>
+                    <div class="box-blue" style="max-width: 165px">
+                        <h4 class="font-miso"> &#43; ¡Qué empiece la aventura!</h4>
+                    </div>
+                    <div class="btn-view-cat" onclick="location.href='http://www.sodimac.com.pe/sodimac-pe/content/a1500012/verano-deportes/?cid=ctglnd9699';"><h4 class="font-miso text-left"> VER CATEGORÍA</h4><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+                <div class="category-destacados col-md-6 col-sm-6 col-xs-6 pull-left">
+                    <div class="box-category-verano hidden-xs hidden-sm pull-left">
+                        <div class="col-md-12 text-center">
+                            <div class="title-great-category" style="background: #0072ce;display:  flex;justify-content:  flex-start;width: 77%;align-items:center; margin: 2% 0 2% -4.5%; padding-left: 2%;">
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <h5><i>Destacados de la categoría</i></h5>
+                            </div>
+                        </div>
+                        <div class="row center-block" style="padding-bottom: 5%;">
+                            <div class="col-md-6" style="background: transparent; padding-left: 0; padding-right: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/1449796/Tabla-de-recreo/?cid=bnnlnd9714" target="_parent"  title="Tabla de recreo">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1449796_1?$producto495$&iv=GqpSp2&wid=489&hei=489" class="img-responsive" alt='Tabla de recreo'/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Tabla de Recreo</div>
+                                                <div class="sku">Do It</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 24.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: transparent; padding-right: 0; padding-left: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/2350505/Bote-Voyager-500/?cid=bnnlnd9716" target="_parent"  title="Bote Voyager 500">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/2350505_1?$producto495$&iv=PcKRb1&wid=489&hei=489" class="img-responsive" alt="Bote Voyager 500"/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Bote Voyager 500
+                                                </div>
+                                                <div class="sku">Bestway</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 499.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="great-category-verano-mobile box-category-margin visible-xs visible-sm">
+            <div class="col-xs-12 text-center">
+                <div class="title-great-category letter-blue">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <h3><i>Destacados de la categoría</i></h3>
+                </div>
+            </div>
+            <div class="row center-block" style="padding-bottom: 5%;">
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/1449796/Tabla-de-recreo/?cid=bnnlnd9714" target="_parent"  title="Tabla de recreo">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/1449796_1?$producto495$&iv=GqpSp2&wid=489&hei=489" class="img-responsive" alt='Tabla de recreo'/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Tabla de Recreo</div>
+                                    <div class="sku">Do It</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 24.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/2350505/Bote-Voyager-500/?cid=bnnlnd9716" target="_parent"  title="Bote Voyager 500">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img  src="http://sodimac.scene7.com/is/image/SodimacPeru/2350505_1?$producto495$&iv=PcKRb1&wid=489&hei=489" class="img-responsive" alt="Bote Voyager 500"/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Bote Voyager 500
+                                    </div>
+                                    <div class="sku">Bestway</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 499.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--deportes de verano end-->
+    <!--juegos al aire libre-->
+    <div class="space-verano-small"></div>
+    <div class="categories">
+        <div class="category-verano-juegos  color-white resize-img">
+            <div class="row center-block">
+                <div class="category-box col-md-6 col-sm-6  col-xs-6 pull-left">
+                    <span class="font-hand">Juegos</span>
+                    <span class="font-miso nowrap">al AIRE LIBRE</span>
+                    <div class="box-blue" style="max-width: 165px">
+                        <h4 class="font-miso"> &#43; ¡Diversión para los más pequeños!</h4>
+                    </div>
+                    <div class="btn-view-cat" onclick="location.href='http://www.sodimac.com.pe/sodimac-pe/content/a1500014/verano-juegos-inflables/?cid=ctglnd9700';"><h4 class="font-miso text-left"> VER CATEGORÍA</h4><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+                <div class="category-destacados col-md-6 col-sm-6 col-xs-6 pull-right">
+                    <div class="box-category-verano hidden-xs hidden-sm pull-right">
+                        <div class="col-md-12 text-center">
+                            <div class="title-great-category" style="background: #0072ce;display:  flex;justify-content:  flex-start;width: 77%;align-items:center; margin: 2% 0 2% -4.5%; padding-left: 2%;">
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="color: white"></i>
+                                <h5><i>Destacados de la categoría</i></h5>
+                            </div>
+                        </div>
+                        <div class="row center-block" style="padding-bottom: 5%;">
+                            <div class="col-md-6" style="background: transparent; padding-left: 0; padding-right: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/2462044/Tobogan-Nino/?cid=bnnlnd9727" target="_parent" title="Tobogan Niño">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2462044_1?$producto495$&iv=HssRt3&wid=489&hei=489" class="img-responsive" alt='Tobogan Niño'/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Tobogan Niño </div>
+                                                <div class="sku">Duraplast</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 99.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: transparent; padding-right: 0; padding-left: 5px;">
+                                <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                                    <a href="http://www.sodimac.com.pe/sodimac-pe/product/2419513/Cama-saltarina-de-colores-3.05m/?cid=bnnlnd9725" target="_parent" title="Cama saltarina de colores 3.05m">
+                                        <div class="cajaProducto">
+                                            <div class="nuievo_pro_de">
+                                                <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2419513_1?$producto495$&iv=ApcSB2&wid=489&hei=489" class="img-responsive" alt='Cama saltarina de colores 3.05m'/>
+                                                <div ></div>
+                                            </div>
+                                            <div class="cajaDetalle">
+                                                <div class="sku">Cama Saltarina de colores</div>
+                                                <div class="sku">3.05m Do It</div>
+                                            </div>
+                                            <div class="cajaPrecio">
+                                                <div class="precio">
+                                                    s/ 599.90 c/u
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btnVtn">VER MÁS</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="great-category-verano-mobile box-category-margin visible-xs visible-sm">
+            <div class="col-xs-12 text-center">
+                <div class="title-great-category letter-blue">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <h3><i>Destacados de la categoría</i></h3>
+                </div>
+            </div>
+            <div class="row center-block" style="padding-bottom: 5%;">
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/2462044/Tobogan-Nino/?cid=bnnlnd9727" target="_parent" title="Tobogan Niño">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2462044_1?$producto495$&iv=HssRt3&wid=489&hei=489" class="img-responsive" alt='Tobogan Niño'/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Tobogan Niño </div>
+                                    <div class="sku">Duraplast</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 99.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6" style="background: #dfdfe1;">
+                    <div class="productosHome" style="background: white; padding-bottom: 10%;">
+                        <a href="http://www.sodimac.com.pe/sodimac-pe/product/2419513/Cama-saltarina-de-colores-3.05m/?cid=bnnlnd9725" target="_parent" title="Cama saltarina de colores 3.05m">
+                            <div class="cajaProducto">
+                                <div class="nuievo_pro_de">
+                                    <img src="http://sodimac.scene7.com/is/image/SodimacPeru/2419513_1?$producto495$&iv=ApcSB2&wid=489&hei=489" class="img-responsive" alt='Cama saltarina de colores 3.05m'/>
+                                    <div ></div>
+                                </div>
+                                <div class="cajaDetalle">
+                                    <div class="sku">Cama Saltarina de colores</div>
+                                    <div class="sku">3.05m Do It</div>
+                                </div>
+                                <div class="cajaPrecio">
+                                    <div class="precio">
+                                        s/ 599.90 c/u
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnVtn">VER MÁS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--juegos al aire libre-->
+</div>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/resize_device_verano.js?v=EdLhpEBBlKsJ6cU"></script>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/swiper.js?v=fBcj2vMbTby5iea"></script>
+<script src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/menu.js?v=a79XgjPaN1jXC10"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+var navbarsTotalHeight = 121;
+$(".link-target").click(function(e) {
+e.preventDefault(); var target = $(this).attr('href');
+$('html, body').animate({scrollTop: $(target).offset().top - navbarsTotalHeight }, 2000);
+});
+});
+</script>
