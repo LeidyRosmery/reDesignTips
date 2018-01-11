@@ -6,10 +6,10 @@
 
   <!--<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css">-->
   <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/slick.css?v=14">
-  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/interna-verano.css?v=14">
-  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css?v=14">
-  <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/swiper.css?v=14">
-  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/menu.css?v=w7aTUpFB6Z9nFee23">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/interna-verano.css?v=15">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css?v=15">
+  <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/swiper.css?v=15">
+  <link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/landings/verano-prueba/css/menu.css?v=w7aTUpFB6Z9nFee29">
   <style type="text/css">
     /******************************************
     /******************************************
@@ -20,33 +20,38 @@
     .video-tip {
       height: 100%;
       background-size: cover;
+      background-position: center center;
       margin-right: 8px;
-      height: 220px;
-
     }
 
     .pad-10 {
       padding: 10px;
+      padding-left: 8%;
+
+    }
+
+    .pad-right {
+      padding-right: 17px;
     }
 
     .video-tip-1 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/prueba.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/piscinas_1.jpg);
     }
 
     .video-tip-2 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/playa-mobile.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/piscinas_2.jpg);
     }
 
     .video-tip-3 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/prueba.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/responsive-mobil.jpg);
     }
 
     .video-tip-4 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/deportes-mobile.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/responsive-mobil.jpg);
     }
 
     .video-tip-5 {
-      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/parrilla-mobile.jpg);
+      background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/mobile/responsive-mobil.jpg);
     }
 
     .slick-dots {
@@ -109,13 +114,13 @@
     .title-video-tip,
     .title-recomendacion {
       color: #fff;
-      font-family: misoRegular;
+      font-family: misoregular;
       font-size: 1.4em;
       padding-top: 12px;
     }
 
     .title-recomendacion {
-      padding: 10px;
+      padding: 15px;
     }
 
     .type-hands {
@@ -125,18 +130,21 @@
     .section-videos-tip,
     .section-recomendados {
       margin-bottom: 20px;
+      outline: none;
     }
 
     .number-recomendacion {
-      padding: 8px 12px;
+      padding: 6px 12px;
       background: rgb(0, 114, 206);
       color: #fff;
-      /* display: flex; */
-      /* justify-content: center; */
       border-radius: 41px;
       font-weight: bold;
-      font-size: 1.2em;
+      font-size: .9em;
 
+    }
+
+    .number-recomendacion-1 {
+      padding: 7px 16px;
     }
 
     .item-recomendacion {
@@ -144,24 +152,195 @@
       height: 100%;
       margin-right: 8px;
       padding: 20px 0;
-      height: 33vh!important;
+
     }
 
     p.text-blue-recomendacion {
-      font-family: miso;
+      font-family: misoregular;
       font-size: 1.4em;
       padding-bottom: 10px;
       line-height: 20px;
       font-weight: bold;
+      width: 68%;
       color: rgb(0, 114, 206);
     }
 
 
     .text-white-recomendacion {
-      color: #929292;
-      line-height: 20px;
+      color: #515151;
+      line-height: 17px;
       text-align: left;
-      font-size: 1em;
+      font-size: 12px;
+      width: 94%
+    }
+
+    .link-video {
+      display: block;
+      height: 100%;
+    }
+
+    .link-video:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    button.slick-prev.slick-arrow {
+      display: none!important;
+    }
+
+    button.slick-next.slick-arrow {
+      display: none!important;
+    }
+
+
+    .slick-next .slick-arrow {
+      display: none!important;
+    }
+
+    @media screen and (min-width: 992px) {
+      .video-tip {
+        margin-right: 16px;
+      }
+
+      .video-tip-1 {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/desktop/piscinas1.jpg);
+      }
+
+      .video-tip-2 {
+        background-image: url(/static/categorias/contenidoEstatico/landings/verano-prueba/img/videos/desktop/piscinas2.jpg);
+      }
+
+      button.slick-prev.slick-arrow {
+        display: block!important;
+      }
+      button.slick-next.slick-arrow {
+        display: block!important;
+      }
+      .div-recomendacion:before {
+        content: '';
+        border-color: #fff #fff #fff rgb(0, 114, 206);
+        left: 94%;
+        bottom: 34%;
+        border-width: 20px;
+      }
+      button.slick-prev.slick-arrow , button.slick-next.slick-arrow {
+        display: block!important;
+        z-index: 3;
+        background: #000;
+        opacity: 0.2;
+        border: none;
+        font-size: 5em;
+        height: 27%;
+        width: 6%;
+        font-family: misoregular;
+        color: #fff;
+        position: absolute;
+        top: 28%;
+      }
+      button.slick-next.slick-arrow {
+        left: 93.8%;
+      }
+      .section-videos-tip button.slick-prev.slick-arrow{
+        display: none!important ;
+      }
+      .section-videos-tip button.slick-next.slick-arrow{
+      display: none!important ;
+      }
+      .section-videos-tip button.slick-prev.slick-arrow:hover{
+        display: block!important ;
+      }
+      .section-videos-tip button.slick-next.slick-arrow:hover{
+      display: block!important ;
+      }
+
+      .div-recomendacion {
+        height: 181px;
+        display: flex;
+      }
+
+      .section-videos-tip .slick-slide {
+        width: 506px;
+        outline: none;
+        height: 370px;
+      }
+
+      .section-recomendados .slick-slide {
+        width: 378px;
+        height: 181px;
+        outline: none;
+      }
+
+      .title-video-tip,
+      .title-recomendacion {
+
+        font-size: 2.2em;
+        padding-top: 27px;
+      }
+
+      .title-recomendacion {
+        font-size: 1.8em;
+        padding: 0;
+        padding-top: 0;
+        padding-left: 41px;
+        height: auto;
+        width: auto;
+        line-height: 31px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+
+      #grad1 {
+        height: 80px;
+      }
+
+      .section-videos-tip .slick-dots {
+        display: none!important;
+      }
+
+      .section-recomendados .slick-dots {
+        justify-content: flex-end;
+      }
+
+      .item-recomendacion {
+        margin-right: 16px;
+      }
+
+      p.text-blue-recomendacion {
+        font-size: 1.8em;
+        line-height: 27px;
+        width: 200px;
+      }
+
+      .number-recomendacion {
+        padding: 7px 15px;
+        font-size: 1.3em;
+      }
+      .number-recomendacion-1 {
+        padding: 7px 20px;
+      }
+      .text-white-recomendacion {
+        line-height: 20px;
+        font-size: 1.1em;
+        width: 255px;
+      }
+
+      .pad-10 {
+        padding-top: 18px;
+        padding-left: 9%;
+      }
+
+      .pad-right {
+        padding-left: 34px;
+      }
+      .size-hands {
+        font-size: .9em;
+      }
+      .section-videos-tip,
+      .section-recomendados {
+        margin-bottom: 16px;
+        outline: none;
+      }
     }
 
     /******************************************
@@ -899,37 +1078,47 @@
       <div class="slider-drag">
         <div>
           <div class="video-tip video-tip-1">
-            <div id="grad1">
-              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
-            </div>
+            <a class="link-video popup-youtube" href="https://www.youtube.com/watch?v=kcFXVCBRaTg">
+              <div id="grad1">
+                <p class="text-center title-video-tip">+ Como limpiar tu <span class="size-hands type-hands">piscina</span></p>
+              </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="video-tip video-tip-2">
-            <div id="grad1">
-              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
-            </div>
+            <a class="link-video popup-youtube" href="https://www.youtube.com/watch?v=kcFXVCBRaTg">
+              <div id="grad1">
+                <p class="text-center title-video-tip">+ Como limpiar tu <span class="size-hands type-hands">piscina</span></p>
+              </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="video-tip video-tip-3">
-            <div id="grad1">
-              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
-            </div>
+            <a class="link-video popup-youtube" href="https://www.youtube.com/watch?v=kcFXVCBRaTg">
+              <div id="grad1">
+                <p class="text-center title-video-tip">+ Como limpiar tu <span class="size-hands type-hands">piscina</span></p>
+              </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="video-tip video-tip-4">
-            <div id="grad1">
-              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
-            </div>
+            <a class="link-video popup-youtube" href="https://www.youtube.com/watch?v=kcFXVCBRaTg">
+              <div id="grad1">
+                <p class="text-center title-video-tip">+ Como limpiar tu <span class="size-hands type-hands">piscina</span></p>
+              </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="video-tip video-tip-5">
-            <div id="grad1">
-              <p class="text-center title-video-tip">+ Como limpiar tu <span class="type-hands">piscina</span></p>
-            </div>
+            <a class="link-video popup-youtube" href="https://www.youtube.com/watch?v=kcFXVCBRaTg">
+              <div id="grad1">
+                <p class="text-center title-video-tip">+ Como limpiar tu <span class="size-hands type-hands">piscina</span></p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -944,70 +1133,80 @@
 <!-- section recomendados -->
 <div class="section-recomendados">
   <div class="row no-margin">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
       <div class="div-recomendacion">
-        <p class="title-recomendacion text-center type-hands"> Tambien te recomendamos</p>
+        <p class="title-recomendacion text-center type-hands"> También te recomendamos</p>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
       <div class="slider-drag">
         <div>
           <div class="item-recomendacion">
-            <div class="col-xs-2 pad-10">
-              <span class="type-hands number-recomendacion">1</span>
-            </div>
-            <div class="col-xs-10 ">
-              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
-              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="item-recomendacion">
-            <div class="col-xs-2 pad-10">
-              <span class="type-hands number-recomendacion">2</span>
-            </div>
-            <div class="col-xs-10 ">
-              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
-              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
-              </p>
+            <div class="row">
+              <div class="col-xs-2 pad-10">
+                <span class="type-hands number-recomendacion number-recomendacion-1">1</span>
+              </div>
+              <div class="col-xs-10 pad-right">
+                <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+                <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="item-recomendacion">
-            <div class="col-xs-2 pad-10">
-              <span class="type-hands number-recomendacion">3</span>
-            </div>
-            <div class="col-xs-10 ">
-              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
-              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="item-recomendacion">
-            <div class="col-xs-2 pad-10">
-              <span class="type-hands number-recomendacion">4</span>
-            </div>
-            <div class="col-xs-10 ">
-              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
-              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
-              </p>
+            <div class="row">
+              <div class="col-xs-2 pad-10">
+                <span class="type-hands number-recomendacion">2</span>
+              </div>
+              <div class="col-xs-10 pad-right">
+                <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+                <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="item-recomendacion">
-            <div class="col-xs-2 pad-10">
-              <span class="type-hands number-recomendacion">5</span>
+            <div class="row">
+              <div class="col-xs-2 pad-10">
+                <span class="type-hands number-recomendacion">3</span>
+              </div>
+              <div class="col-xs-10 pad-right">
+                <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+                <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+                </p>
+              </div>
             </div>
-            <div class="col-xs-10">
-              <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
-              <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
-              </p>
+          </div>
+        </div>
+        <div>
+          <div class="item-recomendacion">
+            <div class="row">
+              <div class="col-xs-2 pad-10">
+                <span class="type-hands number-recomendacion">4</span>
+              </div>
+              <div class="col-xs-10 pad-right">
+                <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+                <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="item-recomendacion">
+            <div class="row">
+              <div class="col-xs-2 pad-10">
+                <span class="type-hands number-recomendacion">5</span>
+              </div>
+              <div class="col-xs-10 pad-right">
+                <p class="text-blue-recomendacion">Analiza el pH del agua de tu piscina cada 5 días.</p>
+                <p class="text-white-recomendacion">Para ello utiliza un kit de mantenimiento y verifica que se encuentre entre los niveles normales: 7,2 y 7,6.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -1017,9 +1216,9 @@
 </div>
 
 <!--fin  section recomendados -->
-<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/slick.js?v=14"></script>
-<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js?v=14"></script>
-<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js?v=22"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/slick.js?v=15"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js?v=15"></script>
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/landings/verano-prueba/js/interna-verano.js?v=48"></script>
 <script type="text/javascript">
   $(document).ready(function() {
 
